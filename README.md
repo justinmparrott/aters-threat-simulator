@@ -47,7 +47,7 @@ Simulated: Created ticket for IP 211.253.9.49 → Reason: GreyNoise indicates sc
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/aters-threat-simulator.git
+git clone https://github.com/justinmparrott/aters-threat-simulator.git
 cd aters-threat-simulator
 ```
 
