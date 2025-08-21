@@ -5,13 +5,14 @@ from utils.enrich_abuseipdb import enrich_abuseipdb
 from utils.enrich_virustotal import enrich_virustotal
 from utils.enrich_greynoise import enrich_greynoise
 from utils.responders import send_slack_alert, simulate_block_ip, simulate_isolate_host, simulate_create_ticket
-
 load_dotenv()  # Load environment variables from .env
 
 ABUSEIPDB_KEY = os.getenv("ABUSEIPDB_KEY")
 VT_KEY = os.getenv("VT_KEY")
 GN_KEY = os.getenv("GN_KEY")
 SLACK_WEBHOOK = os.getenv("SLACK_WEBHOOK")
+
+print(ABUSEIPDB_KEY)
 
 
 def main():
