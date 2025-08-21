@@ -12,8 +12,6 @@ VT_KEY = os.getenv("VT_KEY")
 GN_KEY = os.getenv("GN_KEY")
 SLACK_WEBHOOK = os.getenv("SLACK_WEBHOOK")
 
-print(ABUSEIPDB_KEY)
-
 
 def main():
     ip = input("Enter an IP address to enrich: ")
